@@ -13,6 +13,8 @@
 		CE0DD59B1E78E51A00BFD7BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0DD5991E78E51A00BFD7BD /* Main.storyboard */; };
 		CE0DD59D1E78E51A00BFD7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0DD59C1E78E51A00BFD7BD /* Assets.xcassets */; };
 		CE0DD5A01E78E51A00BFD7BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0DD59E1E78E51A00BFD7BD /* LaunchScreen.storyboard */; };
+		CE0DD5A91E78E5F700BFD7BD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DD5A81E78E5F700BFD7BD /* SecondViewController.m */; };
+		CE0DD5AC1E78E60B00BFD7BD /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DD5AB1E78E60B00BFD7BD /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CE0DD59C1E78E51A00BFD7BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0DD59F1E78E51A00BFD7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0DD5A11E78E51A00BFD7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0DD5A71E78E5F700BFD7BD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE0DD5A81E78E5F700BFD7BD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CE0DD5AA1E78E60B00BFD7BD /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CE0DD5AB1E78E60B00BFD7BD /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				CE0DD5961E78E51A00BFD7BD /* ViewController.h */,
 				CE0DD5971E78E51A00BFD7BD /* ViewController.m */,
 				CE0DD5991E78E51A00BFD7BD /* Main.storyboard */,
+				CE0DD5A71E78E5F700BFD7BD /* SecondViewController.h */,
+				CE0DD5A81E78E5F700BFD7BD /* SecondViewController.m */,
+				CE0DD5AA1E78E60B00BFD7BD /* ThirdViewController.h */,
+				CE0DD5AB1E78E60B00BFD7BD /* ThirdViewController.m */,
 				CE0DD59C1E78E51A00BFD7BD /* Assets.xcassets */,
 				CE0DD59E1E78E51A00BFD7BD /* LaunchScreen.storyboard */,
 				CE0DD5A11E78E51A00BFD7BD /* Info.plist */,
@@ -150,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0DD5A91E78E5F700BFD7BD /* SecondViewController.m in Sources */,
+				CE0DD5AC1E78E60B00BFD7BD /* ThirdViewController.m in Sources */,
 				CE0DD5981E78E51A00BFD7BD /* ViewController.m in Sources */,
 				CE0DD5951E78E51A00BFD7BD /* AppDelegate.m in Sources */,
 				CE0DD5921E78E51A00BFD7BD /* main.m in Sources */,
